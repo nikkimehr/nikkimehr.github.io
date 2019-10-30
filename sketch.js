@@ -50,7 +50,7 @@ function preload() {
   blueFishy = loadImage('assets/bluefishy.png');
   sponge = loadImage('assets/sponge.png');
   startingPage = loadImage('assets/startingPage.png');
-  endPage = loadImage('assets/endPage.png');
+  endPage = loadImage('assets/endpage.png');
   worm = loadImage('assets/Worm_1.png');
   cap = loadImage('assets/cap.png');
   purpleFishy = loadImage('assets/purpleFishy.png');
