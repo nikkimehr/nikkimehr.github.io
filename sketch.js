@@ -37,7 +37,7 @@ var badScore;
 var turtleAnimation;
 
 function preload() {
-  // oceanSound = loadSound('assets/ocean.mp3');
+  oceanSound = loadSound('assets/ocean.mp3');
   bg = loadImage('assets/underwater-2615376.jpg');
   egg = loadImage('assets/face.png');
   jellyFish = loadImage('assets/Jelly Fish.png');
@@ -55,8 +55,8 @@ function preload() {
   cap = loadImage('assets/cap.png');
   purpleFishy = loadImage('assets/purpleFishy.png');
   blob = loadImage('assets/blob.png');
-  // eatSound = loadSound('assets/chew.wav');
-  // backgroundmusic = loadSound('assets/ocean.mp3');
+  eatSound = loadSound('assets/chew.wav');
+  backgroundmusic = loadSound('assets/ocean.mp3');
 
 }
 
@@ -162,7 +162,7 @@ function collect(stretchy, collected) {
   console.log("Bad Score:" + badScore);
   collected.remove();
   insert(collected);
-  // eatSound.play();
+  eatSound.play();
 
 }
 
